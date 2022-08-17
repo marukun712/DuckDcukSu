@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.png">
+  <title>DuckDuckSu ースバル保護をシンプルに。</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="output.css">
+
+</head>
+
+<body>
+
+  <div class="tools flex justify-end">
+
+    <label for="my-modal" class="btn modal-button dark:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" />
+      </svg>
+    </label>
+    <input type="checkbox" id="my-modal" class="modal-toggle" />
+    <div class="modal modal-bottom sm:modal-middle">
+      <iframe src="https://hololive.hololivepro.com/schedule/" class="w-5/6 h-5/6"></iframe>
+      <label for="my-modal" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+    </div>
+  </div>
+
+  <a href="https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA" class="flex justify-center pt-20"><img
+      src="icon.png" width="150" height="150"></a>
+  <h1 class="flex justify-center text-2xl font-bold py-2 dark:text-white">DuckDuckSu</h1>
+
+  <form action="https://duckduckgo.com/">
+    <div class="flex justify-center py-5">
+      <div class="mb-3 xl:w-2/5">
+        <div class="input-group relative flex items-stretch w-full mb-4">
+          <input type="text"
+            class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+            placeholder="Search" aria-label="Search" aria-describedby="button-addon2" name="q">
+          <button
+            class="btn inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700  focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+            type="submit" id="button-addon2">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <h1 class="flex justify-center text-xl font-bold dark:text-white">大空警察からの保護をシンプルに。</h1>
+  <div class="list md:flex justify-center py-5">
+
+    <h1 class="flex justify-center text-lg px-2 dark:text-white"> <svg xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>大空警察ガード</h1>
+    <h1 class="flex justify-center text-lg px-2 dark:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      大空警察ブロック
+    </h1>
+    <h1 class="flex justify-center text-lg px-2 dark:text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+        stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      大空警察暗号化
+    </h1>
+  </div>
+
+
+</body>
+
+</html>
